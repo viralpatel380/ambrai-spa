@@ -1,8 +1,8 @@
-# Node Contact Form
+# Ambrai Spa | Vadodara
 
-Simple Node.js/Express app using Nodemailer to send emails
+Simple Node.js/Express app using Nodemailer to send emails and Bootstrap for Spa Center
 
-- Please add your own SMTP info for it to work
+- Developed by Be.Digital
 
 ### Version
 
