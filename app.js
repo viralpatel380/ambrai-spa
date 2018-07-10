@@ -19,7 +19,35 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  res.render('worlds1');
+  res.render('index');
+  console.log("Server Started");
+});
+app.get('/treatment', (req, res) => {
+  res.render('treatment');
+  console.log("Server Started");
+});
+app.get('/mini-treatment', (req, res) => {
+  res.render('mini-treatment');
+  console.log("Server Started");
+});
+app.get('/beauty', (req, res) => {
+  res.render('beauty');
+  console.log("Server Started");
+});
+app.get('/beauty-scr', (req, res) => {
+  res.render('beauty-scr');
+  console.log("Server Started");
+});
+app.get('/gallery-polaroid', (req, res) => {
+  res.render('gallery-polaroid');
+  console.log("Server Started");
+});
+app.get('/about-us', (req, res) => {
+  res.render('about-us');
+  console.log("Server Started");
+});
+app.get('/contacts', (req, res) => {
+  res.render('contacts');
   console.log("Server Started");
 });
 /* 
